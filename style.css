@@ -334,7 +334,7 @@ body {
     align-items: center;
 }
 
-.city-card h2,p{
+.city-card > *{
     text-align: center;
     margin-top: 8px;
 }
@@ -344,12 +344,12 @@ body {
     font-size: 20px;
 }
 
-.select-car{
+.select-city{
     margin: 60px auto;
     width: fit-content;
 }
 
-.select-car button{
+.select-city button{
     border: 1px solid #1aa9e5;
     padding: 8px 60px;
     background-color: white;
@@ -360,13 +360,20 @@ body {
     border-radius: 6px;
 }
 
-.select-car button img{
+.select-city button img{
     color: #1aa9e5;
 }
 
-.select-car p{
-    margin: 0;
+.select-city p{
     font-size: 20px;
     margin-right: 20px;
 }
+/* sections ends */
+
+.car-selection{
+    width: 100%;
+    background-color: #FFFCF7;
+    
+}
+
 
