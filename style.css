@@ -364,6 +364,7 @@ body {
     color: #1aa9e5;
 }
 
+
 .select-city p{
     font-size: 20px;
     margin-right: 20px;
@@ -376,4 +377,90 @@ body {
     
 }
 
+.content{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.content h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.content p{
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.dropdowns-menu{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem ;
+}
+
+.dropdowns-menu select{
+    padding: 8px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #919090;
+}
+
+.carousel-container{
+    width: 61vw;
+    margin: auto;
+}
+
+.card-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    overflow-x: hidden;
+    margin-top: 50px;
+}
+
+.card-carousel .card{
+    background-color: white;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1),-5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2,.card h3{
+    text-align: start;
+    margin: 14px 6px 1px;
+
+}
+
+.card h2{
+    color: #1aa9e5;
+    font-size: 18px;
+}
+
+.card h3 span{
+    font-size: small;
+    color: #919090;
+}
+
+.card-center{
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    padding: 10px 40px;
+    margin: -8px;
+    background-color: #1aa9e5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
