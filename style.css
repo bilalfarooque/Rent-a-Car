@@ -222,10 +222,10 @@ body {
 }
 
 .hero2 {
-    width: 100%;
-    background-color: white;
-    height: 60vh;
-  }
+  width: 100%;
+  background-color: white;
+  height: 60vh;
+}
 
 .hero2-nav {
   display: flex;
@@ -237,7 +237,6 @@ body {
   height: 150px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1), 20px 20px 15px rgba(0, 0, 0, 0.1);
 }
-
 
 #whyUs {
   width: 90%;
@@ -297,151 +296,144 @@ body {
   margin: 0 10px;
 }
 
-.car-city{
-    width: 80%;
-    margin: auto;
+.car-city {
+  width: 80%;
+  margin: auto;
 }
 
 .city {
-    display: inline-flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 
-.city h1{
-    font-weight: 600;
-    font-size: 32px;
+.city h1 {
+  font-weight: 600;
+  font-size: 32px;
 }
 
-.city select{
-    color: #1aa9e5;
-    border: none;
-    outline: none;
-    padding: 20px;
-    font-size: 28px;
+.city select {
+  color: #1aa9e5;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 28px;
 }
 
-.car-city .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-top: 50px;
+.car-city .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 
-.city-card{
-    width: 24%;
-    align-items: center;
+.city-card {
+  width: 24%;
+  align-items: center;
 }
 
-.city-card > *{
-    text-align: center;
-    margin-top: 8px;
+.city-card > * {
+  text-align: center;
+  margin-top: 8px;
 }
 
-.city-card p{
-    color: #626262;
-    font-size: 20px;
+.city-card p {
+  color: #626262;
+  font-size: 20px;
 }
 
-.select-city{
-    margin: 60px auto;
-    width: fit-content;
+.select-city {
+  margin: 60px auto;
+  width: fit-content;
 }
 
-.select-city button{
-    border: 1px solid #1aa9e5;
-    padding: 8px 60px;
-    background-color: white;
-    color: #1aa9e5;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 6px;
+.select-city button {
+  border: 1px solid #1aa9e5;
+  padding: 8px 60px;
+  background-color: white;
+  color: #1aa9e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
 }
 
-.select-city button img{
-    color: #1aa9e5;
+.select-city button img {
+  color: #1aa9e5;
 }
 
-
-.select-city p{
-    font-size: 20px;
-    margin-right: 20px;
+.select-city p {
+  font-size: 20px;
+  margin-right: 20px;
 }
 /* sections ends */
 
-.car-selection{
-    width: 100%;
-    background-color: #FFFCF7;
-    
+.car-selection {
+  width: 100%;
+  background-color: #fffcf7;
 }
 
-.content{
-    width: 40%;
-    margin: auto;
-    text-align: center;
-    padding: 80px 0;
+.content {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 80px 0;
 }
 
-.content h1{
-    font-size: 30px;
-    margin-bottom: 30px;
-
+.content h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
-.content p{
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 25px;
-
+.content p {
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 25px;
 }
 
-.dropdowns-menu{
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 1rem ;
+.dropdowns-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.dropdowns-menu select{
-    padding: 15px 35px;
-    background-color: transparent;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1),-2px 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    color: #919090;
-    /* appearance: none; */
-    /* Hide the default dropdown arrow */
+.dropdowns-menu select {
+  padding: 15px 35px;
+  background-color: transparent;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1), -2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #919090;
+  /* appearance: none; */
+  /* Hide the default dropdown arrow */
 }
 
-.dropdowns-menu select option{
-
+.dropdowns-menu select option {
 }
 
-.carousel-container{
-    width: 80%;
-    margin: auto;
-    position: relative;
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  position: relative;
 
-
-    overflow: hidden;
-    white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-.card-carousel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    overflow-x: hidden;
-    padding: 50px 5px;
-    width: 100%;
-    max-width: 200%;
-    margin: auto;
+.card-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: hidden;
+  padding: 50px 5px;
+  width: 100%;
+  max-width: 200%;
+  margin: auto;
 
-
-    white-space: nowrap;
-    animation: scrollAnim 8s linear infinite;
+  white-space: nowrap;
+  animation: scrollAnim 8s linear infinite;
 }
 /* 
 @keyframes scrollAnim {
@@ -463,11 +455,15 @@ body {
   animation: none; /* Disable the animation during button click */
 }
 
-.carousel-control[data-scroll="left"]:active ~ .scroll-container .scroll-content {
+.carousel-control[data-scroll="left"]:active
+  ~ .scroll-container
+  .scroll-content {
   animation: scrollLeftAnim 2s linear infinite;
 }
 
-.carousel-control[data-scroll="right"]:active ~ .scroll-container .scroll-content {
+.carousel-control[data-scroll="right"]:active
+  ~ .scroll-container
+  .scroll-content {
   animation: scrollRightAnim 2s linear infinite;
 }
 
@@ -489,84 +485,162 @@ body {
   }
 }
 
-.card-carousel .card{
-    background-color: white;
-    padding: 8px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1),-5px 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    min-width: 270px;
+.card-carousel .card {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 270px;
 }
 
-.card h2,.card h3{
-    text-align: start;
-    margin: 14px 6px 10px 10px ;
-
+.card h2,
+.card h3 {
+  text-align: start;
+  margin: 14px 6px 10px 10px;
 }
 
-.card h2{
-    color: #005085;
-    font-size: 24px;
-    margin-bottom: 15px;
+.card h2 {
+  color: #005085;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
-.card h3 span{
-    font-size: small;
-    color: #919090;
+.card h3 span {
+  font-size: small;
+  color: #919090;
 }
 
-.card-center{
-    width: 240px;
-    margin-bottom: 10px;
-    
+.card-center {
+  width: 240px;
+  margin-bottom: 10px;
 }
 
-.card p{
+.card p {
   color: white;
-    padding: 15px 40px;
-    margin: -8px;
-    background-color: #1aa9e5;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+  padding: 15px 40px;
+  margin: -8px;
+  background-color: #1aa9e5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-#carousel-controlLeft{
+#carousel-controlLeft {
   position: absolute;
   left: 2%;
   top: 43%;
-  
 }
-#carousel-controlRight{
+#carousel-controlRight {
   position: absolute;
   right: 2%;
   top: 43%;
-
 }
 
-.carousel-controls button{
+.carousel-controls button {
   background-color: white;
   padding: 5px 8px;
   border-radius: 50%;
   border: none;
   outline: none;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1),-2px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1), -2px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.carousel-controls button:hover{
-  cursor: pointer !important ;   /* cursor: pointer is a property of CSS */
+.carousel-controls button:hover {
+  cursor: pointer !important ; /* cursor: pointer is a property of CSS */
 }
 
 /* sections ends */
 
-.banner{
-    width: 90%;
-    background-color: white;
-    margin: 60px auto;
+.banner {
+  width: 90%;
+  background-color: white;
+  margin: 60px auto;
 }
 
-.banner img{
-    width: 100%;
-    
+.banner img {
+  width: 100%;
+}
+
+/* sections ends */
+.services {
+  width: 100%;
+  background-color: white;
+}
+
+.services-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.left-container {
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+}
+
+.content-services h4{
+  font-weight: light;
+  letter-spacing: -0.01rem;
+  font-size: 22px;
+  color: #005085;
+  margin-bottom: 10px;
+}
+
+.content-services h1{
+  font-size: 36px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.content-services p{
+  color: #919090;
+  line-height: 30px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.content-services h1 span {
+  background-image: linear-gradient(
+    to right,
+    #e65425,
+    #e96d2a,
+    #ec8334,
+    #ee9841,
+    #f0ab51,
+    #ee9841,
+    #ec8334,
+    #e96d2a,
+    #e65425,
+    #e96d2a,
+    #ec8334,
+    #ee9841,
+    #f0ab51
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.row1,.row2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.comp-img img{
+  width:60px;
+  margin-right: 20px;
 }
