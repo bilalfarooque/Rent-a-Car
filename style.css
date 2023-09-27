@@ -496,29 +496,29 @@ body {
   min-width: 270px;
 }
 
-.card h2,
-.card h3 {
+.card-carousel .card h2,
+.card-carousel .card h3 {
   text-align: start;
   margin: 14px 6px 10px 10px;
 }
 
-.card h2 {
+.card-carousel .card h2 {
   color: #005085;
   font-size: 24px;
   margin-bottom: 15px;
 }
 
-.card h3 span {
+.card-carousel .card h3 span {
   font-size: small;
   color: #919090;
 }
 
-.card-center {
+.card-carousel .card-center {
   width: 240px;
   margin-bottom: 10px;
 }
 
-.card p {
+.card-carousel .card p {
   color: white;
   padding: 15px 40px;
   margin: -8px;
@@ -644,3 +644,42 @@ body {
   width:60px;
   margin-right: 20px;
 }
+
+/* section ends */
+
+.reviews{
+  width: 100%;
+  background-color: #F7FCFF;
+}
+
+.reviews .container{
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.content-reviews h4{
+  font-weight: light;
+  letter-spacing: -0.01rem;
+  font-size: 22px;
+  color: #005085;
+  margin-bottom: 10px;
+} 
+
+.content-reviews h1{
+  font-size: 36px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.content-reviews p{
+  color: #919090;
+  line-height: 30px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+

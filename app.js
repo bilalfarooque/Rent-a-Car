@@ -33,3 +33,5 @@ document.addEventListener("DOMContentLoaded", function() {
     prevButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
 });
+
+
